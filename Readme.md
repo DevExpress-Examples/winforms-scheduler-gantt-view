@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [CustomObjects.cs](./CS/dxT183299/CustomObjects.cs) (VB: [CustomObjects.vb](./VB/dxT183299/CustomObjects.vb))
+* [Form1.cs](./CS/dxT183299/Form1.cs) (VB: [Form1.vb](./VB/dxT183299/Form1.vb))
+* [Program.cs](./CS/dxT183299/Program.cs) (VB: [Program.vb](./VB/dxT183299/Program.vb))
+<!-- default file list end -->
 # How to enable Gantt view for the SchedulerControl bound to collection of business objects
 
 
