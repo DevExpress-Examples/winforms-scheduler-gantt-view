@@ -21,6 +21,11 @@ To display appointments in a Gantt View, you should have three collections that 
 Business objects should have specific properties for [mapping](https://docs.devexpress.com/WindowsForms/15468/controls-and-libraries/scheduler/data-binding/mappings) to the corresponding properties of Scheduler appointments, resources, and appointments dependencies.
 
 
+> **Note**
+>
+> You can also use the [WinForms Gantt Control](how-to-enable-gantt-view-for-the-schedulercontrol-bound-to-collection-of-business-objects-t185539) designed to address your project planning requirements regardless of dataset size and information complexity..
+
+
 ## Files to Review
 
 * [CustomObjects.cs](./CS/dxT183299/CustomObjects.cs) (VB: [CustomObjects.vb](./VB/dxT183299/CustomObjects.vb))
