@@ -23,7 +23,7 @@ Business objects should have specific properties for [mapping](https://docs.dev
 
 > **Note**
 >
-> You can also use the [WinForms Gantt Control](how-to-enable-gantt-view-for-the-schedulercontrol-bound-to-collection-of-business-objects-t185539) designed to address your project planning requirements regardless of dataset size and information complexity..
+> You can also use the [WinForms Gantt Control](https://docs.devexpress.com/WindowsForms/401173/controls-and-libraries/gantt-control/gantt-control) designed to address your project planning requirements regardless of dataset size and information complexity..
 
 
 ## Files to Review
