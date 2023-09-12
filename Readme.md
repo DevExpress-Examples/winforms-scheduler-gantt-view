@@ -3,19 +3,36 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T185539)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
+
+# WinForms Scheduler - Enable the Gantt View
+
+In this example, the Scheduler control is bound to a collection of [custom objects](https://docs.devexpress.com/WindowsForms/9606/controls-and-libraries/scheduler/data-binding/data-sources/business-objects) and displays appointments in a Gantt View. The example also uses the [Resources Tree](https://docs.devexpress.com/WindowsForms/10685/controls-and-libraries/scheduler/visual-elements/resources-tree) to display a resource hierarchy.
+
+![](https://raw.githubusercontent.com/DevExpress-Examples/how-to-enable-gantt-view-for-the-schedulercontrol-bound-to-collection-of-business-objects-t185539/14.2.7%2B/media/winforms-ascheduler-gantt-view.png)
+
+### Implementation Details
+
+To display appointments in a Gantt View, you should have three collections that implement the `IBindingList` interface (we recommend you use `System.ComponentModel.BindingList<T>`):
+
+* Appointments
+* Resources
+* Appointments dependencies.
+
+Business objects should have specific properties for [mapping](https://docs.devexpress.com/WindowsForms/15468/controls-and-libraries/scheduler/data-binding/mappings) to the corresponding properties of Scheduler appointments, resources, and appointments dependencies.
+
+
+## Files to Review
 
 * [CustomObjects.cs](./CS/dxT183299/CustomObjects.cs) (VB: [CustomObjects.vb](./VB/dxT183299/CustomObjects.vb))
 * [Form1.cs](./CS/dxT183299/Form1.cs) (VB: [Form1.vb](./VB/dxT183299/Form1.vb))
-* [Program.cs](./CS/dxT183299/Program.cs) (VB: [Program.vb](./VB/dxT183299/Program.vb))
-<!-- default file list end -->
-# How to enable Gantt view for the SchedulerControl bound to collection of business objects
 
 
-<p>This is a simple example of XtraScheduler bound to collection of custom <a href="https://documentation.devexpress.com/#WindowsForms/CustomDocument9606">business objects</a> displaying <a href="http://documentation.devexpress.com/#WindowsForms/CustomDocument10698">Gantt view</a>. This project also utilizes the <a href="http://documentation.devexpress.com/#WindowsForms/CustomDocument10685">ResourcesTree control</a> to display a hierarchy of resources and the <a href="http://documentation.devexpress.com/#WindowsForms/clsDevExpressXtraEditorsSplitContainerControltopic">SplitContainer control</a> to allow resizing of Scheduler and ResourceTree controls.</p>
-<p>To accomplish this task, you should have three collections - for appointments, for resources and for appointments dependencies. All collections should implement the <strong>IBindingList</strong> interface. You can implement this interface manually in your custom collection, but we recommend you use the <strong>System.ComponentModel.BindingList<T></strong> collection.<br /><br />Additionally, your business objects should have properties suitable for <a href="https://documentation.devexpress.com/#WindowsForms/CustomDocument15468">mapping </a>to the corresponding properties of XtraScheduler appointments, resources and appointments dependencies.<br /><br /><strong>See also:</strong><br /><a href="https://www.devexpress.com/Support/Center/p/E750">How to bind the SchedulerControl to a collection of custom objects</a><br /><a href="https://www.devexpress.com/Support/Center/p/E3574">How to enable Gantt view for the XtraScheduler bound to MS SQL Server database</a></p>
+## Documentation
 
-<br/>
+* [Gantt View - WinForms Scheduler](https://docs.devexpress.com/WindowsForms/10698/controls-and-libraries/scheduler/views/gantt-view)
 
 
+## See Also
+
+* [How to bind the SchedulerControl to a collection of custom objects](https://supportcenter.devexpress.com/ticket/details/e750/winforms-scheduler-bind-to-a-collection-of-custom-appointments)
+* [How to enable Gantt view for the XtraScheduler bound to MS SQL Server database](https://supportcenter.devexpress.com/ticket/details/e3574/winforms-scheduler-create-gantt-chart-bound-to-ms-sql-server-database)
