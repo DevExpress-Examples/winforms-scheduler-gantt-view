@@ -16,9 +16,9 @@ To display appointments in a Gantt View, you should have three collections that 
 
 * Appointments
 * Resources
-* Appointments dependencies.
+* Appointment dependencies
 
-Business objects should have specific properties for [mapping](https://docs.devexpress.com/WindowsForms/15468/controls-and-libraries/scheduler/data-binding/mappings) to the corresponding properties of Scheduler appointments, resources, and appointments dependencies.
+Business objects should have specific properties for [mapping](https://docs.devexpress.com/WindowsForms/15468/controls-and-libraries/scheduler/data-binding/mappings) to the corresponding properties of Scheduler appointments, resources, and appointment dependencies.
 
 
 > **Note**
