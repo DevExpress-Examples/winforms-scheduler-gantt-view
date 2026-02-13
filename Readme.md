@@ -43,7 +43,7 @@ Business objects should have specific properties for [mapping](https://docs.dev
 * [How to bind the SchedulerControl to a collection of custom objects](https://supportcenter.devexpress.com/ticket/details/e750/winforms-scheduler-bind-to-a-collection-of-custom-appointments)
 * [How to enable Gantt view for the XtraScheduler bound to MS SQL Server database](https://supportcenter.devexpress.com/ticket/details/e3574/winforms-scheduler-create-gantt-chart-bound-to-ms-sql-server-database)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-scheduler-gantt-view&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-scheduler-gantt-view&~~~was_helpful=no)
 
